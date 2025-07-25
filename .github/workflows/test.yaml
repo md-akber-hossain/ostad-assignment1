@@ -7,7 +7,7 @@ on:
 
 jobs:
   read_the_file:
-    runs-on: ubuntu-latest
+    runs-on: self-hosted
 
     steps:
       - name: Checkout repository
